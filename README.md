@@ -27,12 +27,14 @@ This is the front end of GIS signup system, working with IthacaCow's [backend sy
 * Support of login system.
 * Delete record.
 * Fix inconvience of the drawer not drawing back after clicking the link.
-* Link for *All* is missing in the drawer/sidebar
+* Link for *All* is missing in the drawer/sidebar.
+
 
 ## Known Issues
 * The table seems to be too wide when viewing users in specific event.
 * No API to get event name. ( so the drawer/sidebar lists start and end time instead, and the title is event ID ) 
 * No API to get sign up time. ( not appear )
+* The table may be too wide when viewing users in all events. ( it overflow the page on mobile devices. )
  
 
 ## Files

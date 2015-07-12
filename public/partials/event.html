@@ -1,0 +1,23 @@
+<div class="page-content mdl-grid">
+	<table class="mdl-data-table mdl-js-data-table
+		      mdl-shadow--2dp mdl-cell--12-col
+		      mdl-cell--8-col-tablet
+		      mdl-cell--4-col-phone
+		      horizon_center" >
+		<thead>
+			<tr>
+				<th class="mdl-data-table__cell--non-numeric">User</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="record in records">
+				<td class="mdl-data-table__cell--non-numeric">
+					{{ record.user.name[0] + " " +  record.user.name[1] }}
+				</td>
+			</tr>
+		</tbody>
+
+	</table>
+
+</div>
+

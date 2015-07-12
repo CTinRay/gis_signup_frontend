@@ -1,0 +1,33 @@
+<div class="page-content mdl-grid">
+	<table class="mdl-data-table mdl-js-data-table
+		      mdl-shadow--2dp mdl-cell--12-col
+		      mdl-cell--8-col-tablet
+		      mdl-cell--2-col-phone">
+		<thead>
+			<tr>
+				<th class="mdl-data-table__cell--non-numeric">User</th>
+				<th class="mdl-data-table__cell--non-numeric">Event</th>
+				<th class="mdl-data-table__cell--non-numeric">Time Start</th>
+				<th class="mdl-data-table__cell--non-numeric">Time End</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="record in records">
+				<td class="mdl-data-table__cell--non-numeric">
+					{{ record.user.name[0] + " " +  record.user.name[0] }}
+				</td>
+				<td class="mdl-data-table__cell--non-numeric">
+					{{ record.event._id }}
+				</td>
+				<td class="mdl-data-table__cell--non-numeric">
+					{{ record.event.start }}
+				</td>
+				<td class="mdl-data-table__cell--non-numeric">
+					{{ record.event.end }}
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
+

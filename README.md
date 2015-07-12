@@ -2,6 +2,8 @@
 
 ## Abstract
 This is the front end of GIS signup system, working with IthacaCow's [backend system](https://github.com/IthacaCow/signup-sheet-backend).
+ 
+*[Here is demo on github](http://ctinray.github.io/gis_signup_frontend/public/sheet.html#/all)*
 
 ## Status
 * The interface is not ready to work with the backend system. To we work with the backend, there are some modifications needed:
@@ -25,6 +27,7 @@ This is the front end of GIS signup system, working with IthacaCow's [backend sy
 * Support of login system.
 * Delete record.
 * Fix inconvience of the drawer not drawing back after clicking the link.
+* Link for *All* is missing in the drawer/sidebar
 
 ## Known Issues
 * The table seems to be too wide when viewing users in specific event.

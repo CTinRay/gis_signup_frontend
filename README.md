@@ -1,7 +1,7 @@
-# gis_signup_frontend
+# signup_frontend
 
 ## Abstract
-This is the front end of GIS signup system, working with IthacaCow's [backend system](https://github.com/IthacaCow/signup-sheet-backend).
+This is the front end of signup system, working with IthacaCow's [backend system](https://github.com/IthacaCow/signup-sheet-backend).
  
 *[Here is demo on github](http://ctinray.github.io/gis_signup_frontend/public/sheet.html#/all)*
 
@@ -21,7 +21,7 @@ This is the front end of GIS signup system, working with IthacaCow's [backend sy
  * List users having signed up in specific event. 
 * Appearance
  * Responsive web design using Google [material design lite](http://www.getmdl.io/index.html) package. 
- * Customize color theme for GIS.
+ * Customize color theme.
 
 ## To Do
 * Support of login system.
